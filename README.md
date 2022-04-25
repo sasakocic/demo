@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Ruby on rails 7 demo](https://d1snj8sshb5u7m.cloudfront.net/Rails7.mp4)
 
 Things you may want to cover:
 
