@@ -12,6 +12,21 @@ rails db:migrate
 rails action_text:install # to add rich text
 bundle
 rails db:migrate
+
+./bin/importmap pin local-time
+./bin/importmap pin local-time --download
+rails g resource comment post:references content:text
+rails db:migrate
+rails g mailer comments submitted
+bundle
+rails db:system:change --to=postgresql
+bundle
+brew tap heroku/brew && brew install heroku
+heroku create
+git push heroku master
+heroku run rake db:migrate
+# heroku addons:create heroku-redis:hobby-dev -a protected-brushlands-24257
+heroku logs --tail
 ```
 Things you may want to cover:
 
