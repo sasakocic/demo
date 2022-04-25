@@ -7,6 +7,7 @@ Executed commands
 rails new demo
 brew install rails-completion
 rails generate scaffold post title:string content:text
+rails db:migrate
 ```
 Things you may want to cover:
 
