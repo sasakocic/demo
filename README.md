@@ -5,8 +5,12 @@
 Executed commands
 ```bash
 rails new demo
-brew install rails-completion
+brew install rails-completion # for rails cli completion
 rails generate scaffold post title:string content:text
+bundle
+rails db:migrate
+rails action_text:install # to add rich text
+bundle
 rails db:migrate
 ```
 Things you may want to cover:
