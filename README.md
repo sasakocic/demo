@@ -30,6 +30,8 @@ git push heroku master
 heroku run rake db:migrate
 # heroku addons:create heroku-redis:hobby-dev -a protected-brushlands-24257
 heroku logs --tail
+gem install overcommit
+overcommit --install
 ```
 Things you may want to cover:
 
