@@ -35,3 +35,5 @@
 /config/master.key
 
 .idea
+/coverage/.last_run.json
+/coverage/.resultset.json.lock
