@@ -12,7 +12,6 @@ rails db:migrate
 rails action_text:install # to add rich text
 bundle
 rails db:migrate
-
 ./bin/importmap pin local-time
 ./bin/importmap pin local-time --download
 rails g resource comment post:references content:text
@@ -21,6 +20,10 @@ rails g mailer comments submitted
 bundle
 rails db:system:change --to=postgresql
 bundle
+brew install postgresql
+createuser -s postgres
+createdb demo_development
+rails db:migrate
 brew tap heroku/brew && brew install heroku
 heroku create
 git push heroku master
