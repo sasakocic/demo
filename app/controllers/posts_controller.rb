@@ -8,6 +8,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1 or /posts/1.json
   def show
+    # code is in before action
   end
 
   # GET /posts/new
@@ -17,6 +18,7 @@ class PostsController < ApplicationController
 
   # GET /posts/1/edit
   def edit
+    # code  is in before action
   end
 
   # POST /posts or /posts.json
