@@ -34,6 +34,9 @@ gem install overcommit
 overcommit --install
 gem install rspec
 rspec --init
+rvm install ruby-3.1.2
+rvm use ruby-3.1.2
+bundle update --bundler
 ```
 Things you may want to cover:
 
