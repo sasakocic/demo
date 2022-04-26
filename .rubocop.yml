@@ -13,6 +13,9 @@ Bundler/OrderedGems:
 #Style/Alias:
 #  EnforcedStyle: prefer_alias_method
 
+Layout/FirstArrayElementIndentation:
+  Enabled: false
+
 Style/Documentation:
   Enabled: false
 
