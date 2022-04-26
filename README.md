@@ -32,6 +32,8 @@ heroku run rake db:migrate
 heroku logs --tail
 gem install overcommit
 overcommit --install
+gem install rspec
+rspec --init
 ```
 Things you may want to cover:
 

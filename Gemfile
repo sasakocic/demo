@@ -71,6 +71,7 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-  gem 'simplecov'
+  gem 'simplecov', '~>0.17.1'
+  gem 'simplecov-json'
   gem "webdrivers"
 end
